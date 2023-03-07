@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+section {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+section img {
+    width: 600px;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    width: 20ch;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+    color: #fff;
+    width: 50ch;
+    font-size: 14px;
+}
+
+button {
+    padding: 9px 50px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    font-family: Poppins, sans-serif;
+    margin-top: 7px;
+    box-shadow: 0 7px 10px rgba(63, 63, 63, 0.3);
+}
+button:hover{
+    background-color: hsl(257, 40%, 49%);
+    color:#fff ;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+i {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 12px;
+    border-radius: 30px;
+}
+
